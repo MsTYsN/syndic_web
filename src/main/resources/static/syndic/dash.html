@@ -245,11 +245,11 @@
     async function loadRevenus() {
 
         // fetch years
-        const response = await fetch('http://localhost:9090/api/revenus/annee');
+        const response = await fetch('/api/revenus/annee');
         const data = await response.json();
 
         //fetch montant
-        const response1 = await fetch('http://localhost:9090/api/revenus/montant');
+        const response1 = await fetch('/api/revenus/montant');
         const data1 = await response1.json();
 
 
@@ -291,11 +291,11 @@
     async function loadDepenses() {
 
         // fetch years
-        const response = await fetch('http://localhost:9090/api/depenses/annee');
+        const response = await fetch('/api/depenses/annee');
         const data = await response.json();
 
         //fetch montant
-        const response1 = await fetch('http://localhost:9090/api/depenses/montant');
+        const response1 = await fetch('/api/depenses/montant');
         const data1 = await response1.json();
 
 
@@ -332,7 +332,7 @@
     async function nombreImmeuble() {
 
         // fetch years
-        const response = await fetch('http://localhost:9090/api/immeubles/nbr');
+        const response = await fetch('/api/immeubles/nbr');
         const data = await response.json();
 
 
@@ -351,7 +351,7 @@
     async function nombreResident() {
 
         // fetch years
-        const response = await fetch('http://localhost:9090/api/residents/nbr');
+        const response = await fetch('/api/residents/nbr');
         const data = await response.json();
 
 
